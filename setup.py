@@ -30,7 +30,7 @@ kw = dict(
 
 )
 
-if sys.version_info[1] == 5:
-    kw['install_requires'] = ['simplejson']
+#if sys.version_info[1] == 5:
+#    kw['install_requires'] = ['simplejson']
 
-setup(**kw)
+setup()
