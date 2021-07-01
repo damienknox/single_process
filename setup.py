@@ -5,14 +5,14 @@ PACKAGES = [PKG_NAME] + ["%s.%s" % (PKG_NAME, i)
                          for i in find_packages(PKG_NAME)]
 import sys
 
-txt = open('README.rst', 'r').read()
+#txt = open('README.rst', 'r').read()
 title = "limit python script just run a single process"
 
 kw = dict(
     name=PKG_NAME,
     version="2.4.1",
     description=title,
-    long_description=txt,
+#    long_description=txt,
     author='zuroc',
     author_email='xpure@foxmail.com',
     classifiers=[
